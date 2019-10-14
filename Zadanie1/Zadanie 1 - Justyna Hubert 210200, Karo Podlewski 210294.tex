@@ -1,0 +1,151 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[verbose,a4paper,tmargin=2cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lastpage}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{hyperref} 
+\usepackage{xcolor}
+\usepackage{tikz}
+
+
+\frenchspacing
+\pagestyle{fancyplain}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\newcommand{\degree}{\ensuremath{^{\circ}}} 
+\fancyfoot[L]{MI: Justyna Hubert i Karol Podlewski}
+\fancyfoot[R]{\thepage\ / \pageref{LastPage}}
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\begin{tabular}{rl}
+\begin{tabular}{|r|}
+\hline \\
+\large{\underline{210200~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~} }\\
+$^{numer\ indeksu}$\\
+\large {\underline{Justyna Hubert~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~} }\\
+$^{imie\ i\ nazwisko}$ \\\\ \hline
+\end{tabular} 
+&
+\begin{tabular}{|r|}
+\hline \\
+\large{\underline{210294~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~} }\\
+$^{numer\ indeksu}$\\
+\large {\underline{Karol Podlewski~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~} }\\
+$^{imie\ i\ nazwisko}$ \\\\ \hline
+\end{tabular} 
+
+\end{tabular}
+~\\~\\~\\ 
+\end{center}
+\begin{tabular}{ll}
+\LARGE{\textbf{Data}}& \LARGE{20.10.2019}\\
+\LARGE{\textbf{Kierunek}}& \LARGE{Informatyka}\\
+\LARGE{\textbf{Rok akademicki}}& \LARGE{2019/20} \\
+\LARGE{\textbf{Semestr}}& \LARGE{7} \\
+\LARGE{\textbf{Specjalizacja}}& \LARGE{IOAD} \\
+\LARGE{\textbf{Grupa dziekańska}}& \LARGE{3} \\~\\~\\~\\~\\
+\end{tabular}
+
+\begin{center}
+\textbf{\Huge{\\~\\Marketing Internetowy\\~\\~\\~\\~\\}}
+\end{center}
+
+
+\begin{center}
+\textbf{\Large{Zadanie 1\\Analiza i ocena wybranych witryn internetowych}}
+\textbf{\Huge{\\~\\Wydawnictwa Gier Fabularnych}}	
+\end{center}
+
+\end{titlepage}
+\setcounter{page}{2}
+
+\section {Charakterystyka branży}
+
+Gry fabularne są względnie nowym, dopiero rozwijającym się rynkiem wydawniczym. Pierwszy tytuł, wydany za oceanem, pojawił się w komercyjnej dystrybucji w roku 1974, a było to Dungeons \& Dragons wydane ówcześnie przez TSR. Branża ta od początku była niszową, by nie powiedzieć nieznaną, szczególnie w Polsce, mając za punkt odniesienia takie kraje jak Niemcy, Anglia czy przede wszystkim USA. Wiele światowych i uznanych marek takich jak Zew Cthulhu, Świat Mroku czy wspomniane wcześniej Dungeons \& Dragons miały problem by na dłużej zagościć na naszym rynku, robiąc wyjątek dla mniej popularnego Warhammera. Ostatnio jednak to się zmienia. W kraju nad Wisłą tworzy się dużo nowych systemów RPG, tłumaczonych jest coraz więcej zagranicznych pozycji do gry, a najpopularniejsze serie dostają nawet specjalne lokacje. Wie wypada nie wspomnieć o zbiórce crowdfundingowej zorganizowanej przez Black Monk, podczas której udało się zebrać ponad milion złotych na wydanie 7 edycji Zewu Cthulhu. Polacy dostali pozwolenie od głównego wydawcy na odświeżenie grafik czy dołożenie treści, czyniąc polski podręcznik subiektywnie lepszym od oryginału.
+
+\section {Kryteria oceniania}
+
+Mając na uwadze rynek jaki porównujemy, przy ocenie zdecydowaliśmy się korzystać z następujących kryteriów:
+
+\begin{enumerate}
+	\item Kryterium graficzne - 11 punktów
+	\begin{enumerate}
+		\item Szata graficzna - 3 punkty
+		\item Logistyczny układ strony - 3 punkty 
+		\item Kolor i rozmiar czcionki - 3 punkty
+		\item Ilość i jakość multimediów na stronie - 2 punkty (0 - za dużo, 1 - brak, 2 - mała, pomocna liczba)
+	\end{enumerate} 
+	\item Kryterium funkcjonalne - 13 punktów
+	\begin{enumerate}
+		\item Opis produktów - 3 punkty
+		\item Opcje zapłaty - 2 punkty
+		\item Opcje dostawy - 2 punkty
+		\item Bezpieczeństwo transakcji - 1 punkt
+		\item Konstrukcja menu - 1 punkt
+		\item Kontakt - 2 punkty
+		\item Wersja mobilna - 2 punkty
+	\end{enumerate} 
+	\item Inne - 11 punktów
+	\begin{enumerate}
+		\item Dodatkowe materiały i treści - 3 punkty
+		\item Opinie o produkcie - 1 punkt
+		\item Dodatkowa oferta - 2 punkty
+		\item Możliwość zapisu do newslettera - 1 punkt
+		\item Promocje - 1 punkt
+		\item Link do Facebooka - 1 punkt
+		\item FAQ - 1 punkt
+		\item Inne - 1 punkt
+	\end{enumerate} 
+\end{enumerate} 
+
+Strona może zdobyć maksymalnie 35 punktów.
+
+\section {Wybrane strony}
+
+Wybierając strony do analizy staraliśmy się dobierać takie, które różnią się tak bardzo jak to możliwe, będąc jednocześnie nieskomplikowanym do porównania. Każda strona musiała mieć możliwość zakupu podręcznika. Mając na uwadze wymienione wcześniej kryteria, chcieliśmy też sprawdzić jaki wpływ na odbiór ma stworzenie strony dla konkretnego systemu, bądź trzymanie wszystkich produktów wydawnictwa razem oraz czy polskie strony prezentują się lepiej niż angielskie. \\
+
+\begin{tabular}{|c|l|c|c|l|}
+	\hline
+	\multicolumn{1}{|c}{\textbf{Nr}} & \multicolumn{1}{|c}{\textbf{Nazwa}} & \multicolumn{1}{|c}{\textbf{Wydawnictwo}} &\multicolumn{1}{|c}{\textbf{Język}} &\multicolumn{1}{|c|}{\textbf{Link}}\\
+	\hline
+	\hline
+	1 & Chaosium Inc. & \textit{nd.} & angielski & \href{https://www.chaosium.com}{\textcolor{blue}{chaosium.com}} \\
+	\hline
+	2 & Copernicus Corporation & \textit{nd.} & polski & \href{https://copcorp.pl}{\textcolor{blue}{copcorp.pl}} \\
+	\hline
+	3 & Dungeons \& Dragons & Rebel & polski & \href{https://www.rebel.pl/dnd/}{\textcolor{blue}{rebel.pl/dnd/}} \\
+	\hline
+	4 & Dungeons \& Dragons & Wizards of the Coast & angielski & \href{https://dnd.wizards.com}{\textcolor{blue}{dnd.wizards.com}} \\
+	\hline
+	5 & Wydawnictwo Hengal & \textit{nd.} & polski & \href{https://hengal.pl}{\textcolor{blue}{hengal.pl}} \\
+	\hline
+\end{tabular}
+
+
+
+\section {Opis i analiza stron}
+
+\section {Punktacja}
+
+\section {Wnioski}
+\begin{itemize}
+	\item XYZ
+	\item XYZ
+	\item XYZ
+	\item XYZ
+\end{itemize} 
+
+\end{document}
