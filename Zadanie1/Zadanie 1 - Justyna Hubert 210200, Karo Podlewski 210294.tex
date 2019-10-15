@@ -15,6 +15,8 @@
 \usepackage{xcolor}
 \usepackage{tikz}
 
+\usepackage{array,multirow,graphicx}
+\usepackage{float}
 
 \frenchspacing
 \pagestyle{fancyplain}
@@ -22,7 +24,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.4pt}
 \newcommand{\degree}{\ensuremath{^{\circ}}} 
-\fancyfoot[L]{MI: Justyna Hubert i Karol Podlewski}
+\fancyfoot[L]{MI: Justyna Hubert 210200, Karol Podlewski 210294}
 \fancyfoot[R]{\thepage\ / \pageref{LastPage}}
 
 
@@ -72,9 +74,11 @@ $^{imie\ i\ nazwisko}$ \\\\ \hline
 \end{titlepage}
 \setcounter{page}{2}
 
+
 \section {Charakterystyka branży}
 
 Gry fabularne są względnie nowym, dopiero rozwijającym się rynkiem wydawniczym. Pierwszy tytuł, wydany za oceanem, pojawił się w komercyjnej dystrybucji w roku 1974, a było to Dungeons \& Dragons wydane ówcześnie przez TSR. Branża ta od początku była niszową, by nie powiedzieć nieznaną, szczególnie w Polsce, mając za punkt odniesienia takie kraje jak Niemcy, Anglia czy przede wszystkim USA. Wiele światowych i uznanych marek takich jak Zew Cthulhu, Świat Mroku czy wspomniane wcześniej Dungeons \& Dragons miały problem by na dłużej zagościć na naszym rynku, robiąc wyjątek dla mniej popularnego Warhammera. Ostatnio jednak to się zmienia. W kraju nad Wisłą tworzy się dużo nowych systemów RPG, tłumaczonych jest coraz więcej zagranicznych pozycji do gry, a najpopularniejsze serie dostają nawet specjalne lokacje. Wie wypada nie wspomnieć o zbiórce crowdfundingowej zorganizowanej przez Black Monk, podczas której udało się zebrać ponad milion złotych na wydanie 7 edycji Zewu Cthulhu. Polacy dostali pozwolenie od głównego wydawcy na odświeżenie grafik czy dołożenie treści, czyniąc polski podręcznik subiektywnie lepszym od oryginału.
+
 
 \section {Kryteria oceniania}
 
@@ -86,7 +90,7 @@ Mając na uwadze rynek jaki porównujemy, przy ocenie zdecydowaliśmy się korzy
 		\item Szata graficzna - 3 punkty
 		\item Logistyczny układ strony - 3 punkty 
 		\item Kolor i rozmiar czcionki - 3 punkty
-		\item Ilość i jakość multimediów na stronie - 2 punkty (0 - za dużo, 1 - brak, 2 - mała, pomocna liczba)
+		\item Ilość multimediów na stronie - 2 punkty (0 - za dużo, 1 - brak, 2 - odpowiednia ilość)
 	\end{enumerate} 
 	\item Kryterium funkcjonalne - 13 punktów
 	\begin{enumerate}
@@ -102,16 +106,17 @@ Mając na uwadze rynek jaki porównujemy, przy ocenie zdecydowaliśmy się korzy
 	\begin{enumerate}
 		\item Dodatkowe materiały i treści - 3 punkty
 		\item Opinie o produkcie - 1 punkt
-		\item Dodatkowa oferta - 2 punkty
+		\item Dodatkowa oferta (np. kości czy inne akcesoria) - 1 punkty
 		\item Możliwość zapisu do newslettera - 1 punkt
 		\item Promocje - 1 punkt
 		\item Link do Facebooka - 1 punkt
 		\item FAQ - 1 punkt
-		\item Inne - 1 punkt
+		\item Inne - 2 punkt
 	\end{enumerate} 
 \end{enumerate} 
 
 Strona może zdobyć maksymalnie 35 punktów.
+
 
 \section {Wybrane strony}
 
@@ -126,26 +131,113 @@ Wybierając strony do analizy staraliśmy się dobierać takie, które różnią
 	\hline
 	2 & Copernicus Corporation & \textit{nd.} & polski & \href{https://copcorp.pl}{\textcolor{blue}{copcorp.pl}} \\
 	\hline
-	3 & Dungeons \& Dragons & Rebel & polski & \href{https://www.rebel.pl/dnd/}{\textcolor{blue}{rebel.pl/dnd/}} \\
+	3 & Dungeons \& Dragons & Rebel & polski & \href{https://www.rebel.pl/dnd/}{\textcolor{blue}{rebel.pl/dnd}} \\
 	\hline
 	4 & Dungeons \& Dragons & Wizards of the Coast & angielski & \href{https://dnd.wizards.com}{\textcolor{blue}{dnd.wizards.com}} \\
 	\hline
-	5 & Wydawnictwo Hengal & \textit{nd.} & polski & \href{https://hengal.pl}{\textcolor{blue}{hengal.pl}} \\
+	5 & Hengal & \textit{nd.} & polski & \href{https://hengal.pl}{\textcolor{blue}{hengal.pl}} \\
 	\hline
 \end{tabular}
 
 
-
 \section {Opis i analiza stron}
+
+\subsection {Chaosium Inc.}
+
+Jedno z bardziej znanych wydawnictw RPGowych na świecie, mających w swoim portfolio takie marki jak Runequest, 7th Sea czy przede wszystkim Call of Cthulhu, czyli Zew Cthulhu. Strona bardzo funkcjonalna, zarazem będąc mało atrakcyjną dla oka. Jesteśmy w stanie zamówić podręczniki zza oceanu do Polski, tak samo jak płacić kartą czy PayPalem. Cieszy ilość dodatkowych materiałów do systemów, jednak strona nie wyróżnia się niczym szczególnym na tle porównywanych przez nas konkurentów, mając oczywiste braki w postaci braku listy promocji czy możliwości zamówienia kości do gry. 
+
+\subsection {Copernicus Corporation}
+
+Strona jednego ze starszych polskich wydawnictw, która około dwóch lat temu przeszła gruntowną przemianę, poprawiającą przede wszystkim bezpieczeństwo transakcji jak i odświeżając szatę graficzną strony - po stronie porusza się najlepiej ze wszystkich tutaj porównywanych. Brak możliwości wysyłki Pocztą Polską, całkiem sporo zaginionych dodatkowych materiałów czy nieistniejące w ofercie kości to główne mankamenty strony wydawnictwa Andrzeja Karlickiego.
+
+\subsection {Dungeons \& Dragons - Rebel}
+
+Polska strona poświęcona 5 edycji Lochów i Smoków prezentuje się na prawdę ładnie. Zbiera ona podstawowe informacje o systemie, skupiając w jednym miejscu patronów medialnych czy nawet mniejszych graczy promujących markę. Szczególnie dobrze sprawdzi się dla graczy zaczynających zabawę z grami fabularnymi. W kontekście sklepu, korzysta z głównej strony wydawnictwa, którą jest wielobranżowy sklep, pozwalający zaopatrywać się w jednym miejscu fanom gier planszowych, karcianych, edukacyjnych jak i oczywiście gier fabularnych. Strona jednak nie wykorzystuje wszystkich możliwości jakie daje wydawca zza oceanu, nie zbierając tak wiele materiałów przydanych dla doświadczonych graczy.
+
+\subsection {Dungeons \& Dragons - Wizards of the Coast}
+
+Najbardziej znany system fabularny na świecie posiada bardzo potężną stronę internetową, która pod względem dodatkowego wsparcia nie może się równać z żadną inną. Marka jest na tyle mocna na rynku, że D\&D to już nie tylko gry fabularne, ale i gry na komputer czy gry bitewne, które są zebrane w jednym miejscu. Opis świata, mapa sklepów stacjonarnych, dodatki na komputer takie jak tapety czy aplikacje oraz streamy to tylko nieliczne z zalet. Wypada jednak wspomnieć o jednym mankamencie - bezpośrednio na witrynie nie jesteśmy w stanie nic kupić. Dostajemy pokaźną ilość odnośników do stron innych sprzedawców, dzięki którym zamówimy angielskie książki nawet do Polski, jest to jednak delikatnie utrudnienie (stąd po jednym punkcie w kategoriach zapłaty i dostawy).
+
+\subsection {Hengal}
+
+Nowe wydawnictwo, mające ledwie ponad rok, które utworzyło się po sukcesie zbiórki na serwisie wspieram.to, gdzie zebrali ponad 450\% wymaganej kwoty do wydania \textbf{Słowian} - gry fabularnej wzorującej się mitach słowiańskich. Sklep wydawnictwa już zdążył przejść przemianę, zdecydowanie wyprzedzając jakościowo część portalu skupiającą artykuły, zapowiedzi i materiały dodatkowe. Po pozostałej części witryny porusza się wyjątkowo ciężko, szata graficzna jest niespójna miedzy różnymi podstronami, aczkolwiek ilość materiałów jest pozytywnie oszałamiająca - jest to tym większym plusem, że system jest zdecydowanie mniej popularny od wcześniej tu porównywanych RPGów.
 
 \section {Punktacja}
 
+\begin{tabular}{|l|c||c|c|c|c|c|}
+	\hline
+	
+	\multicolumn{1}{|c}{\textbf{Kryterium}} & \multicolumn{1}{|c||}{\textbf{Pkt}} & \multicolumn{1}{c}{\textbf{Chaosium}} & \multicolumn{1}{|c}{\textbf{CopCorp}} & \multicolumn{1}{|c}{\textbf{D\&D PL}} &\multicolumn{1}{|c}{\textbf{D\&D EN}} &\multicolumn{1}{|c|}{\textbf{Hengal}}\\
+	\hline \hline
+	
+	\multicolumn{7}{|c|}{\textbf{Kryterium graficzne (11 punktów)}} \\
+	\hline
+	Szata graficzna & 3 & 2 & 2 & 3 & 3 & 2 \\
+	\hline
+	Układ strony & 3 & 2 & 3 & 2 & 2 & 1 \\ 
+	\hline
+	Czcionka & 3 & 1 & 2 & 3 & 2 & 1 \\ 
+	\hline
+	Multimedia & 1 & 2 & 1 & 2 & 2 & 1 \\ 
+	\hline \hline
+	SUMA & 11 & 6 & 9 & 10 & 9 & 5 \\ 
+	\hline \hline
+
+	\multicolumn{7}{|c|}{\textbf{Kryterium funkcjonalne (13 punktów)}} \\
+	\hline
+	Opis produktów & 3 & 3 & 3 & 3 & 3 & 3 \\ 
+	\hline
+	Opcje zapłaty & 2 & 2 & 2 & 2 & 1 & 2 \\ 
+	\hline
+	Opcje dostawy & 2 & 2 & 1 & 2 & 1 & 2 \\ 
+	\hline
+	Bezpieczeństwo & 1 & 1 & 1 & 1 & 1 & 1 \\ 
+	\hline
+	Konstrukcja menu & 1 & 1 & 1 & 1 & 1 & 1 \\ 
+	\hline
+	Kontakt & 2 & 2 & 2 & 1 & 2 & 2 \\ 
+	\hline
+	Wersja mobilna & 2 & 2 & 2 & 1 & 2 & 2 \\ 
+	\hline \hline
+	SUMA & 13 & 13 & 12 & 11 & 11 & 13 \\ 
+	\hline \hline
+	
+	\multicolumn{7}{|c|}{\textbf{Inne (11 punktów)}} \\
+	\hline
+	Dodatkowe materiały & 3 & 2 & 2 & 1 & 3 & 3 \\ 
+	\hline
+	Opinie o produkcie & 1 & 1 & 1 & 1 & 0 & 1 \\ 
+	\hline
+	Dodatkowa oferta & 1 & 0 & 0 & 1 & 1 & 1 \\ 
+	\hline
+	Newsletter & 1 & 1 & 1 & 0 & 0 & 1 \\ 
+	\hline
+	Promocje & 1 & 0 & 1 & 1 & 0 & 1 \\ 
+	\hline
+	Link do Facebooka & 1 & 1 & 1 & 0 & 1 & 1 \\ 
+	\hline
+	FAQ & 1 & 0 & 1 & 0 & 1 & 1 \\ 
+	\hline
+	Inne & 2 & 1 & 0 & 2 & 2 & 0 \\ 
+	\hline \hline
+	SUMA & 11 & 6 & 7 & 7 & 8 & 9 \\ 
+	\hline \hline
+	
+	\multicolumn{7}{|c|}{\textbf{Całość (35 punktów)}} \\
+	\hline
+	SUMA & 35 & 25 & 27 & 28 & 28 & 27 \\ 
+	\hline
+	
+\end{tabular}
+
+\newpage
+
 \section {Wnioski}
 \begin{itemize}
-	\item XYZ
-	\item XYZ
-	\item XYZ
-	\item XYZ
+	\item Porównywane przez nas strony wedle przyjętych przez nas kryteriów prezentują podobny poziom,
+	\item Na wysokim poziomie stoi część funkcjonalna, dzięki czemu bez problemu możemy zakupić interesujące nas podręczniki,
+	\item Wydawnictwa nie zbierają wielu porządnie wykonanych, fanowskich materiałów.
+	\item Szata graficzna na stronach wydawców gier fabularnych nie prezentuje poziomu, do którego przyzwyczają nas globalne marki.
 \end{itemize} 
 
 \end{document}
