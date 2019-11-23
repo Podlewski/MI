@@ -77,8 +77,8 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background: #37cfa2;
-    border-color: #37cfa2;
+    background: #d4af37;
+    border-color: #d4af37;
     color: #fff; }
     .btn.btn-primary:hover {
       background: #343a40;
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5,
   border-radius: 4px;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
-    border-color: #37cfa2; }
+    border-color: #d4af37; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
@@ -251,9 +251,9 @@ h1, h2, h3, h4, h5,
   .ul-check.white li:before {
     color: #fff; }
   .ul-check.success li:before {
-    color: #8bc34a; }
+    color: #d4af37; }
   .ul-check.primary li:before {
-    color: #37cfa2; }
+    color: #d4af37; }
 
 .select-wrap, .wrap-icon {
   position: relative; }
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5,
         top: 100%;
         position: absolute;
         text-align: left;
-        border-top: 2px solid #37cfa2;
+        border-top: 2px solid #d4af37;
         -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
         box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
         border-left: 1px solid #edf0f5;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5,
           transition: 0s all;
           color: #343a40; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-          color: #37cfa2 !important; }
+          color: #d4af37 !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5,
         -o-transition: .3s all ease;
         transition: .3s all ease; }
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
-          color: #25262a; }
+          color: #25262A; }
     .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
       float: left;
       margin-top: 10px;
@@ -467,12 +467,12 @@ h1, h2, h3, h4, h5,
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #37cfa2; }
+        color: #d4af37; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .active {
-        color: #37cfa2; }
+        color: #d4af37; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -570,7 +570,7 @@ h1, h2, h3, h4, h5,
     .sticky-wrapper.is-sticky .site-navbar ul li a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-        color: #37cfa2 !important; }
+        color: #d4af37 !important; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -743,7 +743,7 @@ h1, h2, h3, h4, h5,
         width: 80px;
         height: 4px;
         margin-top: -4px;
-        background: #37cfa2;
+        background: #d4af37;
         top: 0; }
       .block-12 .text .text-inner .heading {
         font-size: 20px;
@@ -766,7 +766,7 @@ h1, h2, h3, h4, h5,
     display: block;
     border-radius: 50%;
     opacity: 1;
-    color: #37cfa2 !important; }
+    color: #d4af37 !important; }
     .block-16 figure .play-button:hover {
       opacity: 1; }
     .block-16 figure .play-button > span {
@@ -804,7 +804,7 @@ h1, h2, h3, h4, h5,
   color: #999999; }
 
 .block-25 ul li a .meta {
-  color: #37cfa2; }
+  color: #d4af37; }
 
 .block-25 ul li a:hover img {
   opacity: .5; }
@@ -839,7 +839,7 @@ h1, h2, h3, h4, h5,
     border-radius: 50%;
     border: 1px solid #ccc; }
   .site-block-27 ul li.active a, .site-block-27 ul li.active span {
-    background: #37cfa2;
+    background: #d4af37;
     color: #fff;
     border: 1px solid transparent; }
 
@@ -928,7 +928,7 @@ h1, h2, h3, h4, h5,
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #37cfa2;
+    background: #d4af37;
     opacity: .2;
     z-index: -1;
     top: 10px;
@@ -958,7 +958,7 @@ h1, h2, h3, h4, h5,
   margin-top: -100px; }
 
 .feature-1, .free-quote, .feature-3 {
-  background: #37cfa2;
+  background: #d4af37;
   padding: 30px 50px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 15px; }
@@ -985,7 +985,7 @@ h1, h2, h3, h4, h5,
       transform: translate(-50%, -50%); }
 
 .free-quote {
-  background: #2ebf94; }
+  background: #d4af37; }
   .free-quote .form-control {
     border: 2px solid rgba(255, 255, 255, 0.5);
     background: none;
@@ -1014,7 +1014,7 @@ h1, h2, h3, h4, h5,
       font-style: italic; }
 
 .feature-3 {
-  background: #2cb78d; }
+  background: #d4af37; }
 
 .testimonial {
   max-width: 800px;
@@ -1039,7 +1039,7 @@ h1, h2, h3, h4, h5,
 .how-it-work-item .number {
   width: 50px;
   height: 50px;
-  background: #37cfa2;
+  background: #d4af37;
   color: #fff;
   line-height: 55px;
   font-weight: 300;
@@ -1094,7 +1094,7 @@ h1, h2, h3, h4, h5,
   line-height: 40px;
   border-radius: 50%;
   display: inline-block;
-  background: #37cfa2;
+  background: #d4af37;
   color: #fff; }
 
 .custom-pagination span {
@@ -1153,7 +1153,7 @@ h1, h2, h3, h4, h5,
     -o-transition: .1s all ease;
     transition: .1s all ease; }
   .popular-category:hover {
-    background: #37cfa2;
+    background: #d4af37;
     -webkit-box-shadow: 0 5px 30px -5px rgba(55, 207, 162, 0.5);
     box-shadow: 0 5px 30px -5px rgba(55, 207, 162, 0.5); }
     .popular-category:hover .caption {
@@ -1161,7 +1161,7 @@ h1, h2, h3, h4, h5,
     .popular-category:hover .icon {
       color: #fff; }
     .popular-category:hover .number {
-      background: #2ebf94;
+      background: #d4af37;
       color: #fff; }
 
 @media (max-width: 1199.98px) {
@@ -1204,7 +1204,7 @@ h1, h2, h3, h4, h5,
       font-size: 12px;
       display: inline-block;
       padding: 5px 30px;
-      background: #37cfa2;
+      background: #d4af37;
       border-radius: 30px;
       color: #fff;
       letter-spacing: .2em;
@@ -1248,14 +1248,14 @@ h1, h2, h3, h4, h5,
     height: 16px;
     border-radius: 50%;
     border: none !important;
-    background: #37cfa2; }
+    background: #d4af37; }
     #slider-range .ui-slider-handle:focus, #slider-range .ui-slider-handle:active {
       outline: none; }
   #slider-range .ui-slider-range {
-    background-color: #37cfa2; }
+    background-color: #d4af37; }
 
 .accordion-item[aria-expanded="true"] {
-  color: #37cfa2; }
+  color: #d4af37; }
 
 .social-media {
   display: inline-block;
@@ -1288,7 +1288,7 @@ h1, h2, h3, h4, h5,
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: #37cfa2;
+    background: #d4af37;
     margin-right: 1.5rem;
     border-radius: 50%;
     line-height: 50px;
@@ -1401,12 +1401,12 @@ h1, h2, h3, h4, h5,
 
 .section-sub-title {
   font-size: 13px;
-  color: #37cfa2;
+  color: #d4af37;
   letter-spacing: .2em;
   text-transform: uppercase; }
 
 .section-title {
-  color: #37cfa2;
+  color: #d4af37;
   font-size: 40px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
@@ -1551,7 +1551,7 @@ h1, h2, h3, h4, h5,
   padding: 20px;
   left: 50%;
   display: inline-block;
-  background: #37cfa2; }
+  background: #d4af37; }
   .custom-direction a {
     text-decoration: none;
     color: #fff;
@@ -1765,14 +1765,14 @@ h1, h2, h3, h4, h5,
       margin: 4px;
       border: 2px solid #fff; }
     .with-dots .owl-dots .owl-dot.active span {
-      border-color: #37cfa2;
-      background: #37cfa2; }
+      border-color: #d4af37;
+      background: #d4af37; }
 
 .property-status {
   position: absolute;
   top: 0;
   right: 0;
-  background: #37cfa2;
+  background: #d4af37;
   font-size: .85rem;
   color: #fff;
   display: inline-block;
@@ -1855,7 +1855,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 0; }
 
 .ftco-testimonial-1 .ftco-testimonial-vcard span {
-  color: #c4c4c4; }
+  color: #C4C4C4; }
 
 .ftco-testimonial-1 p {
   color: #a2a2a2; }
@@ -1866,7 +1866,7 @@ h1, h2, h3, h4, h5,
   position: fixed;
   right: 20px;
   z-index: 99;
-  background: #37cfa2;
+  background: #d4af37;
   text-align: center;
   line-height: 50px;
   -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
